@@ -6,7 +6,7 @@ import {  FaEye, FaRegBookmark,  FaRegStar,  FaShareAlt, FaStar } from 'react-ic
 import Rating from 'react-rating';
 
 const Newscard = ({news}) => {
-        console.log(news)
+        
          const {_id, details, title,image_url,author,rating, total_view} = news;
         return (
                 <div>

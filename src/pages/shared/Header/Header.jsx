@@ -2,12 +2,16 @@ import React from 'react';
 import logo from '../../../assets/logo.png'
 import moment from 'moment';
 import Marquee from "react-fast-marquee";
-import { Button, Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Button, Container  } from 'react-bootstrap';
+ 
+
+
 
 const Header = () => {
+
+   
         return (
-                <div className='container mt-3'>
+                <Container className='container mt-3'>
                         <div className='text-center'>
                                 <img src={logo} alt="" />
                                 <p>Journalism Without Fear or Favour</p>
@@ -21,25 +25,8 @@ const Header = () => {
                         I can be a React component, multiple React components, or just some text.
                 </Marquee>
     </div>
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-      <Container>
-         
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mx-auto">
-             
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
-            <Nav.Link href="#Career">Career</Nav.Link>
-          
-          </Nav>
-          <Nav>
-            <Nav.Link href="#deets">Profile</Nav.Link>
-            <Button variant="secondary">Loging</Button>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-                </div>
+    
+                </Container>
         );
 };
 
