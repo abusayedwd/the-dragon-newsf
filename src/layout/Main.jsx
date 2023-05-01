@@ -17,8 +17,8 @@ const Main = () => {
                <Letnav> </Letnav>
         </Col>
         <Col lg={6}>
-                 <h3>main content comming soon</h3>
-        </Col>
+                <Outlet></Outlet>
+         </Col>
         <Col lg={3}>
                 <Rightnav></Rightnav>
         </Col>
